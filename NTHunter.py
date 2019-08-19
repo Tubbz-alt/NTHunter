@@ -14,7 +14,7 @@ class bcolors:
 import sys
 if len(sys.argv) <2:
         print bcolors.WARNING + bcolors.BOLD + "\nUsage: " + sys.argv[0] + " <ntds file location>\n"
-        print "Example: python theBeast.py /root/hashes\n" + bcolors.ENDC
+        print "Example: python NTHunter.py /root/hashes\n" + bcolors.ENDC
         sys.exit()
 
 
