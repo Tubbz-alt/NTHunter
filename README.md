@@ -2,7 +2,7 @@
 ## DC Password Audit Tool (NTHunter)
 
 This is a python script that generates custom wordlist according to the domain names and usernames. If you can't crack your passwords with traditional rockyou.txt, this is what NTHunter comes for. 
-There is no need to import any wordlist. All you need to do is just to give right format of ntds file to the script. It creates 1269220 password for each user. So, make sure there is at least 1gb free space in your ram.
+There is no need to import any wordlist. All you need to do is just to give right format of ntds file to the script. It creates 1269220 password for each user. So, make sure there is at least 500 mb free space in your ram.
 
 Your ntds file should be in this format:
 >exapmledomain.com\firstname.lastname:::ntlmHASH::: 
