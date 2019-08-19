@@ -258,7 +258,7 @@ def main():
 					print bcolors.WARNING +  "[+] ----------------------------------------------------- [+]\n" + bcolors.ENDC
 					print bcolors.FAIL + bcolors.BOLD + "[+] Password Cracked! [+]\n" + bcolors.ENDC
 					print bcolors.FAIL + bcolors.BOLD + "[+] The ntlm hash of " + username[0] + " is: " + i + " [+]\n" + bcolors.ENDC
-					print bcolors.FAIL + bcolors.BOLD + "[+] The password is beginning: " + nt[nt.index(str(i)) + 1][:3] + "*** [+]\n" + bcolors.ENDC
+					print bcolors.FAIL + bcolors.BOLD + "[+] The password is beginning with: " + nt[nt.index(str(i)) + 1][:3] + "*** [+]\n" + bcolors.ENDC
 					print bcolors.WARNING +  "[+] ----------------------------------------------------- [+]\n" + bcolors.ENDC
 					break
 
