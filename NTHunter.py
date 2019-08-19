@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Author : ch1c0
+# Author : ch1ngiz
 
 class bcolors:
     HEADER = '\033[95m'
