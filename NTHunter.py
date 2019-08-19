@@ -244,7 +244,6 @@ def main():
                                         plist += list 
 			
 			nt = []
-			print len(plist)
 			for p in plist:
 
 				import hashlib,binascii
