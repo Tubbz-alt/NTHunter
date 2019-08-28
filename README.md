@@ -5,7 +5,9 @@ This is a python script that generates custom wordlist according to the domain n
 There is no need to import any wordlist. All you need to do is just to give right format of ntds file to the script. It creates 1269220 password for each user. So, make sure there is at least 500 mb free space in your ram.
 
 Your ntds file should be in this format:
->exapmledomain.com\firstname.lastname:::ntlmHASH::: 
+>exapmledomain.com\firstname.lastname:::ntlmHASH:::<br/>
+or<br/>
+>subdomain.example.com\firstname.lastname:::ntlmHASH:::
 
 ### Screenshot:
 
